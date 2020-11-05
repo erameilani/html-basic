@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1604503115011-1d32dfe301e9');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-left: 16px;
+}
+
+.menu {
+    background-color: white;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 36px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+ul li.active a {
+    color: lightcoral;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+    font-size: large;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.more {
+    border: 1px solid white;
+    padding: 20px 100px;
+    color: white;
+    text-decoration: none;
+    transition: 0.8s ease;
+}
+
+.more:hover {
+    background-color: rgb(139, 134, 134);
+    color: black;
+}
+
+#article {
+    padding: 100px;
+}
+
+#article h1 {
+    color: teal;
+}
+
+#article h2 {
+    color: turquoise;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+.foot p {
+    color: teal;
+    text-align: center;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: teal;
+}
